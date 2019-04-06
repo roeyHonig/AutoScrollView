@@ -15,6 +15,7 @@
 		F737C8D522592B50008F4D1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F737C8D422592B50008F4D1E /* main.m */; };
 		F737C8DF22592B51008F4D1E /* AutoScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F737C8DE22592B51008F4D1E /* AutoScrollViewTests.m */; };
 		F737C8EA22592B51008F4D1E /* AutoScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F737C8E922592B51008F4D1E /* AutoScrollViewUITests.m */; };
+		F737C8F922593A61008F4D1E /* ScrollTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F737C8F822593A61008F4D1E /* ScrollTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F737C8E522592B51008F4D1E /* AutoScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F737C8E922592B51008F4D1E /* AutoScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoScrollViewUITests.m; sourceTree = "<group>"; };
 		F737C8EB22592B51008F4D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F737C8F722593A61008F4D1E /* ScrollTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollTableViewCell.h; sourceTree = "<group>"; };
+		F737C8F822593A61008F4D1E /* ScrollTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F737C8D022592B50008F4D1E /* LaunchScreen.storyboard */,
 				F737C8D322592B50008F4D1E /* Info.plist */,
 				F737C8D422592B50008F4D1E /* main.m */,
+				F737C8F722593A61008F4D1E /* ScrollTableViewCell.h */,
+				F737C8F822593A61008F4D1E /* ScrollTableViewCell.m */,
 			);
 			path = AutoScrollView;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			files = (
 				F737C8CA22592B49008F4D1E /* ViewController.m in Sources */,
 				F737C8D522592B50008F4D1E /* main.m in Sources */,
+				F737C8F922593A61008F4D1E /* ScrollTableViewCell.m in Sources */,
 				F737C8C722592B49008F4D1E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
